@@ -2,7 +2,4 @@
 Console.Write ("Введите целое число: ");
 int numb = Convert.ToInt32 (Console.ReadLine());
 if (numb % 2 == 0) Console.Write ($"Число {numb} является четным числом");
-else 
-{
-Console.Write ($"Число {numb} НЕ является четным числом");
-}
+else Console.Write ($"Число {numb} НЕ является четным числом");
