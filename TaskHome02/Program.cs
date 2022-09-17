@@ -7,11 +7,7 @@ if (numb1 == numb2)
 {
 	Console.Write ("Числа равны");
 }
-if (numb1 > numb2)
-{
-	Console.Write ($"Число {numb1} большее, а число {numb2} меньшее");
-}
-if (numb1 < numb2)
-{
-	Console.Write ($"Число {numb2} большее, а число {numb1} меньшее");
-}
+else
+	if (numb1 > numb2)	Console.Write ($"Число {numb1} большее, а число {numb2} меньшее");
+	else Console.Write ($"Число {numb2} большее, а число {numb1} меньшее");
+	
