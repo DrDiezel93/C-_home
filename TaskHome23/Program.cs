@@ -7,12 +7,11 @@ int number = Convert.ToInt32(Console.ReadLine());
 void numberСube (int numb)
 {
     int i = 1;
-    while (i <= numb - 1)
+    while (i <= numb)
     {
         int num = i * i * i;
-        Console.Write($"{num}, ");
+        Console.WriteLine($"{i,2}  {num,3}");
         i++;
     }
-    int lastNumb = numb * numb * numb; Console.Write($"{lastNumb} ");
 }
 numberСube (number);
