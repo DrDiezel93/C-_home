@@ -11,7 +11,7 @@ else Console.WriteLine("Вы ввели некорректное значени�
 
 void NumberPositiveNumbers(int siz)
 {
-    int count = default;
+    int count = default; 
     for (int i = 1; i <= siz; i++)
     {
         Console.Write($"Введите {i}-е число: ");
