@@ -43,17 +43,7 @@ void SearchElementMatrix(int[,] matr, int rowNumber, int columNumber)
 {
     if (rowNumber <= matr.GetLength(0) && columNumber <= matr.GetLength(1))
     {
-        for (int i = 0; i < matr.GetLength(0); i++)
-        {
-            for (int j = 0; j < matr.GetLength(1); j++)
-            {
-                if (i == rowNumber - 1 && j == columNumber - 1)
-                {
-                    Console.Write($"На заданной позиции находтися числа: {matr[i, j]}");
-                    break;
-                }
-            }
-        }
+        Console.Write($"На заданной позиции находтися числ0: {matr[rowNumber-1, columNumber-1]}");
     }
     else Console.Write("Такого элемента в массиве нет");
 }
